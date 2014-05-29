@@ -1,16 +1,15 @@
-Cucumber-Capybara_Webkit Integration
-=========
+== Cucumber-Capybara_Webkit Integration
+
 
 capybara-webkit - Headless Webkit driver for Capybara
 
 
 To Run tests in Terminal
 
-    $ bundle exec cucumber features/googlesearch.feature
+    $ xvfb-run bundle exec cucumber features/googlesearch.feature
 
 
-How to Use
-------------
+### How to Use
 
 Install capybara-webkit
 
